@@ -30,7 +30,7 @@ module.exports = {
   },
 
   // Database
-  databaseUrl: process.env.DATABASE_URL || 'sqlite:database.sqlite',
+  databaseUrl: process.env.DATABASE_URL || 'postgresql://tes:tes@localhost/tes',
 
   // Web analytics
   analytics: {
