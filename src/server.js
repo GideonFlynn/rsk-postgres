@@ -101,7 +101,7 @@ app.use(
   '/graphql',
   expressGraphQL(req => ({
     schema,
-    graphiql: __DEV__,
+    graphiql: true,
     rootValue: { request: req },
     pretty: __DEV__,
   })),
