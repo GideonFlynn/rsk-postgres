@@ -31,7 +31,7 @@ module.exports = {
 
   // Database
   databaseUrl:
-    process.env.DATABASE_URL || 'postgresql://tes:tes@192.168.10.133/tes',
+    process.env.DATABASE_URL || 'postgres://tes:tes@database:5432/tes',
 
   // Web analytics
   analytics: {
