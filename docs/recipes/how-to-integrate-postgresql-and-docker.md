@@ -89,6 +89,7 @@ listen_addresses = '*'
 `host   all   all   172.17.0.0/16  md5`
 
 What you are defining:
+
 | TYPE   | DATABASE   | USER   | ADDRESS       | METHOD   |
 |--------|------------|--------|---------------|----------|
 | host   |  all       | all    | 172.17.0.0/16 | md5      |
